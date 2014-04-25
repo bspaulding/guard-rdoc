@@ -1,5 +1,2 @@
-require 'rdoc'
-require 'bundler/setup'
-
-guard(:inline_guard, format: :sdoc) { watch(/^app\/.*/) }
+guard(:rdoc, format: :sdoc) { watch(/^app\/.*/) }
 
