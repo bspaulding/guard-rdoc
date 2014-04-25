@@ -1,2 +1,2 @@
-guard(:rdoc, format: :sdoc) { watch(/^app\/.*/) }
+guard(:rdoc, format: :sdoc) { watch(/^app\/.*\.rb/) }
 

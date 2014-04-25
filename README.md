@@ -23,7 +23,7 @@ Or install it yourself as:
 Add `guard-rdoc` to your Guardfile:
 
 ```ruby
-guard(:rdoc, format: :sdoc) { watch(/^app\/.*/) }
+guard(:rdoc, format: :sdoc) { watch(/^app\/.*\.rb/) }
 ```
 
 Any options will be passed to RDoc, see the RDoc documentation for details.
