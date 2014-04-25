@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["bspaulding@dataxu.com"]
   spec.summary       = %q{Automatically rebuild rdoc on code changes.}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://rubygems.org/gems/guard-rdoc"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
