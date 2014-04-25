@@ -5,7 +5,7 @@ require 'guard/rdoc/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "guard-rdoc"
-  spec.version       = Guard::Rdoc::VERSION
+  spec.version       = Guard::RdocVersion::VERSION
   spec.authors       = ["Bradley J. Spaulding"]
   spec.email         = ["bspaulding@dataxu.com"]
   spec.summary       = %q{Automatically rebuild rdoc on code changes.}
