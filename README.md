@@ -1,5 +1,7 @@
 # Guard::Rdoc
 
+[![Code Climate](https://codeclimate.com/github/bspaulding/guard-rdoc.png)](https://codeclimate.com/github/bspaulding/guard-rdoc)
+
 RDoc plugin for guard. Automatically rebuild rdoc on code changes.
 
 ## Installation
