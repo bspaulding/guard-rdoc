@@ -1,6 +1,7 @@
 require "guard/rdoc/version"
 require "guard"
 require "guard/plugin"
+require "rdoc"
 
 module Guard
   class Rdoc < Plugin
