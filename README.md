@@ -1,6 +1,6 @@
 # Guard::Rdoc
 
-TODO: Write a gem description
+RDoc plugin for guard. Automatically rebuild rdoc on code changes.
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add `guard-rdoc` to your Guardfile:
+
+```ruby
+guard(:rdoc, format: :sdoc) { watch(/^app\/.*/) }
+```
+
+Any options will be passed to RDoc, see the RDoc documentation for details.
 
 ## Contributing
 
