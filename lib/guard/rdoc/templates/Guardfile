@@ -1,0 +1,6 @@
+# Installed by guard-rdoc
+#
+
+guard(:rdoc, format: :sdoc, output: 'doc') do
+  watch(%r{.+\.rb$})
+end
