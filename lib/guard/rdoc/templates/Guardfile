@@ -1,0 +1,5 @@
+# options are passed to rdoc:
+# guard :rdoc, format: :sdoc, output: 'documentation' do
+guard :rdoc do
+  watch(%r{.+\.rb$})
+end
